@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <link rel="shortcut icon" href="./img/hdchostlogo.png" type="image/x-icon">
+  <title>Cadastro</title>
+  <!-- Ícones -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Estilos -->
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/registro.css">
+</head>
+
+<body>
+  <div class="container" >
+    <div class="navbar-container" id="navbar-container">
+      <nav>
+        <a href="#">
+          <img class="logo" src="/img/hdchostlogo.png" alt="logo">
+        </a>
+        <ul class="navbar-items">
+          <li>
+            <a href="index.html">Home</a>
+          </li>         
+          <li>
+            <a href="registre.html">Registre</a>
+          </li>         
+          <li>
+            <a href="#" class="default-btn">Entrar</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+      <div class="main-banner">
+        <h1>hDc Host</h1>
+        <p>Os melhores serviços para projetos de todos todos os tamanhos!</p>
+      </div> 
+
+      <main class="main-container">
+      <div class="form-container">
+        <h2>Cadastro de Clientes</h2>
+        <form action="" method="post">
+          <label for="name">Nome Completo</label>
+          <input type="text" id="name" name="name" placeholder="Digite seu nome completo">
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+
+          <label for="phone">Telefone:</label>
+          <input type="tel" id="phone" name="phone" placeholder="Digite seu telefone">
+
+          <label for="password">Senha:</label>
+          <input type="password" id="password" name="password" placeholder="Digite sua senha" required>
+
+          <label for="confirm-password">Confirmar Senha:</label>
+          <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirme sua senha" required>
+
+          <button type="submit" class="submit-btn">Cadastrar</button>
+        </form>
+      </div>
+      </main>
+      
+      
+
+      
+  <footer>
+    <p>hDC Host @ 2024</p>
+    <p class="devs">Copyright &copy Dev. Wesley Roberto</p>    
+  </footer>
+</body>
+
+</html>
