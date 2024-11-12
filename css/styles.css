@@ -176,6 +176,10 @@ nav {
   color: #333;
  }
 
+ span{
+  color: #f45c57;
+ }
+
  .plan .price {
   width: 120px;
   height: 120px;
