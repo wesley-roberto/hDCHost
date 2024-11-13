@@ -369,8 +369,8 @@ tablet 900px
 
 @media (max-width: 900px) {
   .main-banner p {
-    font-size: 32px;
-    padding: 0 6rem;
+    font-size: 18px;
+    padding: 0 5rem;
   }
 
   .searchdomain-container {
@@ -403,7 +403,13 @@ celular 576px
 
   .navbar-items li {
     font-size: 12px;
-    margin-left: 10px;
+    margin-left: 0px;
+  }
+
+  .navbar-items .default-btn {
+    margin: 5px;
+    padding: 10px;
+
   }
 
   .services-container ul {
@@ -429,9 +435,16 @@ celular 576px
     margin-bottom: 15px;
   }
 
-  .plan-name li {
-    font-size: ;
+  .plan ul li {
+    font-size: 20px;
   }
+
+  @media (max-width: 200px) {
+    .plan ul li {
+      font-size: 20px;
+    }
+  }
+
 
   .contact-container {
     padding: 3rem 2rem;
