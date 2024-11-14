@@ -1,7 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: Helvetica;
+  font-family: Helvetica;  
   box-sizing: border-box;
 }
 
@@ -35,9 +35,30 @@ nav {
   position: relative;
 }
 
+.main-banner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;  
+}
+
+
+#logo-banner {
+  width: 290px;
+  max-width: 100%;
+  height: auto;
+  margin-top: 50px;
+}
+
+#logo-banner:hover{
+  width: 390px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
 .logo {
-  width: 50px;
-  margin-top: 15px;
+  width: 90px;
+  margin-top: 10px;
 }
 
 .navbar-items {
@@ -86,21 +107,11 @@ nav {
   padding: 10rem 0;
 }
 
-.main-banner h1,
-.main-banner p {
+.main-banner h1 {
   color: #fff;
   text-align: center;
   font-weight: bold;
   text-shadow: #000 3px 2px 3px;
-}
-
-
-.main-banner h1 {
-  font-size: 54px
-}
-
-.main-banner p {
-  font-size: 32px
 }
 
 /*Serviços*/

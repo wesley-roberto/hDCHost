@@ -5,7 +5,10 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
- <link rel="shortcut icon" href="./img/hdchostlogo.png" type="image/x-icon">
+  <link rel="shortcut icon" href="./img/LogoConectaPreto.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
   <title>Cadastro</title>
   <!-- Ícones -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
@@ -17,31 +20,32 @@
 </head>
 
 <body>
-  <div class="container" >
+  <div class="container">
     <div class="navbar-container" id="navbar-container">
       <nav>
         <a href="#">
-          <img class="logo" src="/img/hdchostlogo.png" alt="logo">
+          <img class="logo" src="/img/LogoConecta.png" alt="logo">
         </a>
         <ul class="navbar-items">
           <li>
             <a href="index.html">Home</a>
-          </li>         
+          </li>
           <li>
             <a href="registre.html">Registre</a>
-          </li>         
+          </li>
           <li>
             <a href="#" class="default-btn">Entrar</a>
           </li>
         </ul>
       </nav>
     </div>
-      <div class="main-banner">
-        <h1>hDc Host</h1>
-        <p>Os melhores serviços para projetos de todos todos os tamanhos!</p>
-      </div> 
+    <div class="main-banner">
+      <h1 id="titulo-conect">CONECTA HOST</h1>
+      <p>Nossas melhores hospedagem você só encontra aqui!</p>
+     
+    </div>
 
-      <main class="main-container">
+    <main class="main-container">
       <div class="form-container">
         <h2>CADASTRO DE CLIENTES</h2>
         <form action="" method="post">
@@ -58,20 +62,21 @@
           <input type="password" id="password" name="password" placeholder="Digite sua senha" required>
 
           <label for="confirm-password">Confirmar Senha:</label>
-          <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirme sua senha" required>
+          <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirme sua senha"
+            required>
 
           <button type="submit" class="submit-btn">Cadastrar</button>
         </form>
       </div>
-      </main>
-      
-      
+    </main>
 
-      
-  <footer>
-    <p>hDC Host @ 2024</p>
-    <p class="devs">Copyright &copy Dev. Wesley Roberto</p>    
-  </footer>
+
+
+
+    <footer>
+      <p>hDC Host @ 2024</p>
+      <p class="devs">Copyright &copy Dev. Wesley Roberto</p>
+    </footer>
 </body>
 
 </html>
